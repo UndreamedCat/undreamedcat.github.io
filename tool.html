@@ -1,7 +1,29 @@
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>工具箱</title>
 </head>
 <body>
-    <h1>Is this a page?</h1>
+    <script>
+        function solve_formula_1() {
+            // 解一个形如 ax+b=c 的一元一次方程
+            const a = document.getElementById("formula_1_input_a").value
+            const b = document.getElementById("formula_1_input_b").value
+            const c = document.getElementById("formula_1_input_c").value
+            document.getElementById("formula_1_output").value = (c - b) / a
+        }
+    </script>
+    <h1>这是一个常用工具箱！</h1>
+    <div id="formula_1">
+        <h2>解一元一次方程</h2><br>
+        <h3>解形如<code>ax+b=c</code>的方程：</h3>
+        <div id="formula_1_input">
+            <code>a:</code> <input type="number" id="formula_1_input_a" placeholder="a">
+            <code>b:</code> <input type="number" id="formula_1_input_b" placeholder="b">
+            <code>c:</code> <input type="number" id="formula_1_input_c" placeholder="c">
+            <br>
+            <button id="solve_formula_1" onclick="solve_formula_1()">运算</button>
+            <input type="number" id="formula_1_output">
+        </div>
+    </div>
+
 </body>
