@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.number_input_box {
+  border-radius: 10px;
+  border: 2px solid #00000011;
+  padding: 25px;
+  background: #00000033;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px #00000011;
+
+  transition: transform .3s ease-out;
+}
+
+.number_input {
+  outline: none;
+
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #00000011;
+  background: #ffffff57;
+  box-shadow: 0 8px 32px #00000011;
+  backdrop-filter: blur(10px);
+
+  transition: transform .3s ease-out;
+}
+
+.number_input:hover {
+  transform: translateY(-3px);
+}
+
+.input_confirm {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #00000011;
+  background: #ffffff57;
+  box-shadow: 0 8px 32px #00000011;
+  backdrop-filter: blur(10px);
+
+  transition: transform .3s ease-out;
+}
+
+.input_confirm:hover {
+  transform: translateY(-3px);
+}

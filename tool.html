@@ -1,6 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <title>工具箱</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script>
@@ -13,16 +14,16 @@
         }
     </script>
     <h1>这是一个常用工具箱！</h1>
-    <div id="formula_1">
+    <div id="formula_1" class="content_box">
         <h2>解一元一次方程</h2><br>
         <h3>解形如<code>ax+b=c</code>的方程：</h3>
-        <div id="formula_1_input">
-            <code>a:</code> <input type="number" id="formula_1_input_a" placeholder="a">
-            <code>b:</code> <input type="number" id="formula_1_input_b" placeholder="b">
-            <code>c:</code> <input type="number" id="formula_1_input_c" placeholder="c">
+        <div id="formula_1_input_box" class="number_input_box">
+            <code>a:</code> <input type="number" id="formula_1_input_a" class="number_input" placeholder="a">
+            <code>b:</code> <input type="number" id="formula_1_input_b" class="number_input" placeholder="b">
+            <code>c:</code> <input type="number" id="formula_1_input_c" class="number_input" placeholder="c">
             <br>
-            <button id="solve_formula_1" onclick="solve_formula_1()">运算</button>
-            <input type="number" id="formula_1_output">
+            <button id="solve_formula_1" class = "input_confirm" onclick="solve_formula_1()">运算</button>
+            <input type="number" id="formula_1_output" class="number_input" readonly>
         </div>
     </div>
 
