@@ -1,8 +1,7 @@
-# undreamedcat.github.io
-Welcome to undreamedcat.github.io!
+# UndreamedCat 的个人网站
 
-This website is for databases, wiki, personal blog, and something else!
-
-Tool Available in [/tool](/tool) (Currently Not Published)
+欢迎！  
+目前本网站除了这个页面只有一个页面：[工具](/tool) 页面，包含一些简单的工具。
+（你会注意到除了这个界面以外都很难看，因为这个界面使用 `Markdown` 编写并且使用了 Jekyll 进行了美化，而其他页面因为程序要求都是拿 HTML 编写的，而本人对 CSS 一窍不通……）
 
 +5:119,106,103,110,119,121,109
